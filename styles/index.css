@@ -28,6 +28,11 @@
 	padding-top: 50px;
 
 }
+.main-section:after{
+	clear: both;
+	display: block;
+	content: '';
+}
 .arrow {
 	width: 200px;
 	height: 150px;
@@ -59,11 +64,15 @@
 	padding-bottom: 33px;
 	float: right;
 	display:block;
-	margin-right: 19px;
 }
 .left {
 	padding-right: 33px;
 	padding-bottom: 33px;
 	float: left;
 	display:block;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
 }
